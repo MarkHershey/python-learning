@@ -1,7 +1,7 @@
 # Python Learning
 #### A Practical Learning Path for Complete Beginners  
 
-### Step 1:
+### Step 0:
 *Prerequisite*: Zero Programming Experience
 
 *Learning Material*: Harvard University CS50: Introduction to Computer Science (v2015)
@@ -10,6 +10,14 @@
 *Learning Objective*: Scratch (A graphical/ visual programming language)
 
 *Instructions*: To watch this two lectures only, you should be able to get a grasp of what programming is, and be able to create your own Scratch program.
+
+### Step 1: Environment Set up
+- install python 3
+- install pip and use pip
+- simple Unix terminal commands (cd, ls, pwd, tab completion)
+- install Atom / VS Code
+- run python or run python scrip from terminal
+- Python hello, world
 
 ### Step 2:
 *Prerequisite*: Experience with Scratch
@@ -47,7 +55,8 @@ ipython
 Web Crawler http://aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html
 
 
-
+### Advance Environment Setup
+- VIM
 
 not relevant (for tmp archive):
 https://lines.chromeexperiments.com/
