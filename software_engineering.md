@@ -1,6 +1,7 @@
-HTML
-
-CSS
+Frontend:
+    Language:
+        HTML
+        CSS
 
 Sass : SCSS, Sass (two syntaxes)
 https://sass-lang.com/

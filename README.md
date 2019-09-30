@@ -37,6 +37,9 @@ https://docs.python.org/3/library/re.html
 Collections
 https://docs.python.org/3.7/library/collections.html
 
+Intermediate Python
+https://github.com/yasoob/intermediatePython
+
 Python with Data Analysis
 Python for Data Analysis, 2nd Edition
 https://learning.oreilly.com/library/view/python-for-data/9781491957653/
