@@ -31,6 +31,9 @@
 
 
 ### Step 3:
+Format Specification Mini-Language
+https://docs.python.org/3.7/library/string.html#format-specification-mini-language
+
 Regular Expression
 https://docs.python.org/3/library/re.html
 
