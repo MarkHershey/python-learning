@@ -35,3 +35,7 @@ Framework?
 
 
 React Native
+
+Cracking the Coding Interview (CTCI)
+Element of Programming Interviews (EPI)
+Introduction to Algorithms by CLRS
