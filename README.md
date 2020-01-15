@@ -2,7 +2,7 @@
 #### A Practical Learning Path for Complete Beginners  
 
 ### Step 0:
-*Prerequisite*: Zero Programming Experience
+*Prerequisite*: None
 
 *Learning Material*: Harvard University CS50: Introduction to Computer Science (v2015)
 [Week 0 Lecture](https://youtu.be/zFenJJtAEzE) and [Week 0 continued Lecture](https://youtu.be/UuFWYOnHwGM)
@@ -11,16 +11,35 @@
 
 *Instructions*: To watch this two lectures only, you should be able to get a grasp of what programming is, and be able to create your own Scratch program.
 
-### Step 1: Environment Set up
-- install python 3
-- install pip and use pip
+### Step 1: Terminologies Introduction & Environment Set up
+1.1 Terminologies
+- Compiler versus Interpreter
+- Source Code versus Machine Code
+- Python Module / Package / Library
+- Text Editors versus IDE (Integrated Development Environment)
+    - [Atom](https://atom.io) - A good text (and good-looking) editor
+    - [Vim](https://www.vim.org/download.php) - A customisable text editor (require some effort to learn)
+    - [Emacs](https://www.gnu.org/software/emacs/) - A customisable text editor
+    - [Sublime Text](http://www.sublimetext.com) - A good (and good-looking) text editor
+    - [Visual Studio Code](https://code.visualstudio.com) - A general Open Source IDE by Microsoft
+    - [PyCharm](https://www.jetbrains.com/pycharm/) - A Python IDE by IntelliJ
+    - [Spyder](https://www.spyder-ide.org) - A scientific Python IDE
+
+1.2 [Properly Installing Python](https://docs.python-guide.org/starting/installation/)
+- install / update python 3
+    - macOS User
+    - Windows User
+- run python from command line tool
+    - Terminal
+    - cmd
+- install / update pip and use pip
 - simple Unix terminal commands (cd, ls, pwd, tab completion)
-- install Atom / VS Code
-- run python or run python scrip from terminal
+- install text editor / IDE of your choice
+- run python scrip from terminal
 - Python hello, world
 
 ### Step 2:
-*Prerequisite*: Experience with Scratch
+*Prerequisite*: Step 1
 
 *Learning Material*: How to Think Like a Computer Scientist: Learning with Python 3 (Book)
 [PDF Download for offline reading](https://buildmedia.readthedocs.org/media/pdf/howtothink/latest/howtothink.pdf), [HTML version for online reading](http://openbookproject.net/thinkcs/python/english3e/)
