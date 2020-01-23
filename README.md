@@ -4,19 +4,21 @@
 ### Step 0:
 *Prerequisite*: None
 
-*Learning Material*: Harvard University CS50: Introduction to Computer Science (v2015)
-[Week 0 Lecture](https://youtu.be/zFenJJtAEzE) and [Week 0 continued Lecture](https://youtu.be/UuFWYOnHwGM)
+*Learning Material*:
+- [CS50: Week 0 Lecture](https://youtu.be/zFenJJtAEzE)
+- [CS50: Week 0 continued Lecture](https://youtu.be/UuFWYOnHwGM)
+> from Harvard University CS50: Introduction to Computer Science (v2015)
 
-*Learning Objective*: Scratch (A graphical/ visual programming language)
+*Learning Objective*: Computational Thinking and Playing with Scratch (A graphical/ visual programming language)
 
 *Instructions*: To watch this two lectures only, you should be able to get a grasp of what programming is, and be able to create your own Scratch program.
 
 ### Step 1: Terminologies Introduction & Environment Set up
 1.1 Terminologies
-- Compiler versus Interpreter
-- Source Code versus Machine Code
+- Compiler / Interpreter
+- Source Code / Machine Code
 - Python Module / Package / Library
-- Text Editors versus IDE (Integrated Development Environment)
+- Text Editors / IDE (Integrated Development Environment)
     - [Atom](https://atom.io) - A good text (and good-looking) editor
     - [Vim](https://www.vim.org/download.php) - A customisable text editor (require some effort to learn)
     - [Emacs](https://www.gnu.org/software/emacs/) - A customisable text editor
@@ -25,13 +27,11 @@
     - [PyCharm](https://www.jetbrains.com/pycharm/) - A Python IDE by IntelliJ
     - [Spyder](https://www.spyder-ide.org) - A scientific Python IDE
 
-1.2 [Properly Installing Python](https://docs.python-guide.org/starting/installation/)
+1.2 Environment Set up
+> for macOS user, you may follow to this guide: [How to Install Vanilla Python on macOS Properly?](install-python.md)
+
 - install / update python 3
-    - macOS User
-    - Windows User
 - run python from command line tool
-    - Terminal
-    - cmd
 - install / update pip and use pip
 - simple Unix terminal commands (cd, ls, pwd, tab completion)
 - install text editor / IDE of your choice
@@ -50,38 +50,36 @@
 
 
 ### Step 3:
-Format Specification Mini-Language
-https://docs.python.org/3.7/library/string.html#format-specification-mini-language
+[Format Specification Mini-Language](https://docs.python.org/3.7/library/string.html#format-specification-mini-language)
 
-Regular Expression
-https://docs.python.org/3/library/re.html
 
-Collections
-https://docs.python.org/3.7/library/collections.html
+[Regular Expression](https://docs.python.org/3/library/re.html)
 
-Intermediate Python
-https://github.com/yasoob/intermediatePython
+
+[Collections](https://docs.python.org/3.7/library/collections.html)
+
+
+[Intermediate Python](https://github.com/yasoob/intermediatePython)
+
 
 Python with Data Analysis
-Python for Data Analysis, 2nd Edition
-https://learning.oreilly.com/library/view/python-for-data/9781491957653/
+[Python for Data Analysis, 2nd Edition](https://learning.oreilly.com/library/view/python-for-data/9781491957653/)
 
-Python with Deep Learning
 
-Python with Data Visualisation
-https://github.com/rougier/matplotlib-cheatsheet
+[Python with Deep Learning]()
+
+[Python with Data Visualisation]()
+
+[matplotlib cheatsheet](https://github.com/rougier/matplotlib-cheatsheet)
+
 https://pypi.org/project/folium/
 
 
 matplotlib, numpy, scipy, pandas
 
-ipython
 
-Web Crawler http://aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html
+[Web Crawler](http://aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html)
 
-
-### Advance Environment Setup
-- VIM
 
 not relevant (for tmp archive):
 https://lines.chromeexperiments.com/
