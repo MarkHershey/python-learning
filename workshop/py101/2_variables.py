@@ -12,3 +12,6 @@ print(f"d is {d}")
 
 a = None
 print(f"e is {e}")
+
+
+# type conversion 

@@ -1,4 +1,4 @@
-text = open("test.txt", "r")
+text = open("Doc0.txt", "r")
 for i in text:
     print("---start---")
     print(i, type(i))

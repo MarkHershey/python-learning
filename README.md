@@ -81,6 +81,15 @@ matplotlib, numpy, scipy, pandas
 [Web Crawler](http://aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html)
 
 
+ML powered Auto Completion
+[TabNine](https://tabnine.com/)
+[kite](https://kite.com/)
+Code Formatter
+[Black](https://black.readthedocs.io/en/stable/)
+
+
+
+
 not relevant (for tmp archive):
 https://lines.chromeexperiments.com/
 https://www.allhistory.com/

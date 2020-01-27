@@ -1,7 +1,7 @@
 import string
 
 # Open text file in reading mode
-file = "J. K. Rowling - Harry Potter and the Chamber of Secrets.txt"
+file = "Doc1.txt"
 document = open(file, "r")
 # initilise empty dictionary
 dict = dict()

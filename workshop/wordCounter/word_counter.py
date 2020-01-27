@@ -1,4 +1,4 @@
-text = open("Lorem ipsum.txt", 'r')
+text = open("Doc0.txt", 'r')
 h = 0
 t = ""
 dict = dict()
