@@ -1,17 +1,30 @@
 a = 12
 print(f"a is {a}")
+print(f"Data Type of a is {type(a)}")
 
-a = 3.1415926
+b = 3.1415926
 print(f"b is {b}")
+print(f"Data Type of b is {type(b)}")
 
-a = "message"
+c = "message"
 print(f"c is {c}")
+print(f"Data Type of c is {type(c)}")
 
-a = True
+d = True
 print(f"d is {d}")
+print(f"Data Type of d is {type(d)}")
 
-a = None
+e = None
 print(f"e is {e}")
+print(f"Data Type of e is {type(e)}")
 
 
-# type conversion 
+# type conversion
+print("------------------")
+print(f"b is {b}, type: {type(b)}")
+b  = int(b)
+print(f"b is {b}, type: {type(b)}")
+b  = float(b)
+print(f"b is {b}, type: {type(b)}")
+b  = str(b)
+print(f"b is {b}, type: {type(b)}")
