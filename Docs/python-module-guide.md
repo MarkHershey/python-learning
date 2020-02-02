@@ -19,7 +19,13 @@
 > GitHub:
 > Intro:
 
-4. 
+4. sqlite
+> Pip
+> Website:
+> GitHub:
+> Intro:
+
+5. openpyxl
 > Pip
 > Website:
 > GitHub:
