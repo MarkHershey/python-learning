@@ -86,10 +86,10 @@ Homebrew will install Pip as well.
 
 Depends on which shell you are using.
 
-If you are using Bash Shell, open the`.bash_profile` file using nano.
+If you are using Bash Shell, open the`.profile` file using nano.
 
 ```
-nano ~/.bash_profile
+nano ~/.profile
 ```
 If you are using ZSH or Z Shell, open the`.zprofile` file using nano.
 
