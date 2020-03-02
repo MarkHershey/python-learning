@@ -49,8 +49,16 @@ Add the following line at the bottom of the file you have opened.
 
 ```
 # virtualenv and virtualenvwrapper
+
+# set home folder for virtual environments
 export WORKON_HOME=$HOME/.virtualenvs
-export VIRTUALENVWRAPPER_PYTHON=global_python_location
+
+# set python location for VIRTUALENVWRAPPER
+export VIRTUALENVWRAPPER_PYTHON=usr/bin/python3
+
+# set virtualenv location for VIRTUALENVWRAPPER
+export VIRTUALENVWRAPPER_VIRTUALENV=/home/mark/.local/bin/virtualenv
+
 source /usr/local/bin/virtualenvwrapper.sh
 ```
 Technical Details:
