@@ -13,7 +13,7 @@ Print content of file
 cat example.json
 ```
 
-Secure copy 
+Secure copy
 
 ```
 scp [local file] [remote user]@[remote address]:[remote path]
@@ -46,3 +46,16 @@ sudo apt update
 sudo apt upgrade
 ```
 
+remove empty folder
+
+```
+rmdir some_folder
+```
+
+remove folder and all of the files inside
+
+```
+rm -rf some_folder
+```
+
+More about removing directories: [How to Remove (Delete) Directory in Linux](https://linuxize.com/post/remove-directory-linux/)
