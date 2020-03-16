@@ -1,5 +1,6 @@
 # How to Install Python, Pip, Virtualenv, and Virtualenvwrapper on Linux?
 
+> This guide is written based on Ubuntu 18.04.4 LTS
 
 ```
 sudo apt update
