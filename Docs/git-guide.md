@@ -102,6 +102,26 @@ To contribute to a project where you don't have write access, you can use GitHub
 
 ---
 
+#### Setting up Git username and email address
+
+check current git username and email address:
+it returns nothing if there is no name/email has been set
+
+```
+git config --global user.name
+git config --global user.email
+
+```
+
+To set global (for all the repos on your machine) git username and email address:
+
+```
+git config --global user.name "tom cruise"
+git config --global user.email "tom@example.com"
+
+```
+
+
 #### How to unstage a changed file
 
 #### How to remove a file from repository
