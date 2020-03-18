@@ -1,50 +1,54 @@
 class Person:
-    def __init__(self, name, age=0):
-        # Initialise Person.name
-        if type(name) == str:
-            self.name = name
-        else:
-            print("Person.name can be String only.")
+    # static variable
+    currentYear = 2020
 
-        # Initialise Person._age
-        if type(age) not in (int, float):
-            print("Age can be integer or float only.")
-        elif age < 0:
-            print("Age cannot less than zero.")
+    def __init__(self, name, birthYear=None):
+        self.name = name
+        self.birthYear = birthYear
+
+    @property
+    def name(self):
+        print("name getter ran")
+        return self._name
+
+    @name.setter
+    def name(self, value):
+        print("name setter ran")
+        if type(value) is str:
+            self._name = value
         else:
-            self._age = age
-        
-    def __str__(self):
-        return f"{self.name}(Age: {self._age})"
+            raise TypeError("name attribute accepts string only")
+
+    @property
+    def birthYear(self):
+        print("birthYear getter ran")
+        return self._birthYear
+
+    @birthYear.setter
+    def birthYear(self, value):
+        print("birthYear setter ran")
+        if value == None:
+            self._birthYear = None
+        elif type(value) not in (int, None):
+            raise TypeError("birthYear attribute accepts integer only")
+        elif value < 1900:
+            raise ValueError("birthYear attribute value less than 1900 not supported")
+        elif value > Person.currentYear:
+            raise ValueError("birthYear cannot be larger than current year")
+        else:
+            self._birthYear = value
+
+    @birthYear.deleter
+    def birthYear(self):
+        self._birthYear = None
 
     @property
     def age(self):
-        return self._age
-
-    @age.setter
-    def age(self, value):
-        if type(value) not in (int, float):
-            print("Age can be integer or float only.")
-        elif value < 0:
-            print("Age cannot less than zero.")
+        print("age getter ran")
+        if self._birthYear == None:
+            return None
         else:
-            self._age = value
+            return Person.currentYear - self._birthYear
 
-    @age.deleter
-    def age(self):
-        # we don't actually want to delete the age attribute from the memory
-        # because in this case, it makes no sense if a person don't have an age attribute
-        # so we assume when we use del(person.age)
-        # we actually meant to remove the age info from this person
-        self._age = None
-
-p1 = Person("Mike")
-print(p1)
-p2 = Person("Jack", "22")
-
-p1.age = 23
-print(p1.age)
-p1.age = -1
-
-del(p1.age)
-print(p1)
+    def __str__(self):
+        return f"{self.name}(Age: {self.age})"
