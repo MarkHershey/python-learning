@@ -1,15 +1,81 @@
 
-# Git 101
+# Get Started with Git & GitHub
+
+## What is the difference between Git and GitHub?
+
+#### Short version:
+- **Git** is a version management software that manages your local git repositories.
+- **GitHub** is an online hosting service for your git repositories.
+
+#### Long version:
+- **Git** is open-source software that helps you manage code versions, it does not have a graphical interface, so you can't really "see" the software, but you can use git commands in your terminal/ shell to interact with it.
+- **GitHub** is an online platform developed by a company and then acquired by Microsoft in 2018. Github, the platform, provides free hosting service for git repositories, which usually contains code or text files. It also enables collaboration on projects, since the repository is hosted on the cloud, teams can collaborate on the project repository from different locations. GitHub is an online service that is built around git, making git more convenient and powerful for programmers especially teams.
 
 
-### Git & GitHub
+## Download Git
 
-GitHub and Git are two separated things.
+#### For macOS:
 
-- Git is open-source software that helps you manage code versions, it does not have a graphical interface, so you can't really see the "software", but you can use git command in your terminal/ shell using the command line.
-- GitHub is an online platform developed by a company, the company is acquired by Microsoft in 2018, so now it is under Microsoft. Github, the platform, provides free hosting service for repositories, which usually contains code or text files. It also enables collaboration on projects, since the repository is hosted on the cloud (actually in some server owned by Github) so that teams can collaborate in remote locations, but accessing the same repository. In summary, GitHub is a service that is built around git, making git more convenient and powerful for programmers.
+Just run the following command in your terminal to check your git version, it will prompt you to install Git if you don't have it.
+```
+git --version
+```
 
-### Using GitHub
+#### For Other Operating Systems:
+
+Refer to: [Getting Started Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+## Configure Git
+
+#### Setting up Git username and email address
+Just letting Git know who you are. If you already have a GitHub account, keep the username and the email address for your Git the same as your GitHub account.
+
+- To check current username and email address for Git.
+- It returns nothing if no name/email has been set.
+
+```
+git config --global user.name
+git config --global user.email
+
+```
+
+- To set username and email address for Git.
+- `--global` means to set for all the repositories on your machine.
+
+```
+git config --global user.name "Tom Cruise"
+git config --global user.email "tom@example.com"
+
+```
+
+
+## Work with local Git repositories
+
+#### `git init`
+#### `git add`
+#### `git help <git command>`
+#### `git status`
+#### `git log --all --graph --decorate`
+#### `git commit`
+#### `git commit -a`
+Tell the command to automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected.
+
+#### `git commit -m "Your commit message"`
+
+#### `git branch`
+#### `git branch -vv`
+
+
+
+
+#### `git checkout <hash string>`
+#### `git checkout master`
+
+
+## Work with remote Git repositories
+
+
+### Get started with GitHub
 
 1. Create a GitHub account
 2. Create a repo on GitHub
@@ -33,7 +99,7 @@ If you don't know how to use Git command, follow this Step-by-step guide:
 1. Create a new folder on your machine at your desired directory.
 2. Open your Terminal / Shell on your machine.
 3. Use command line to navigate into the folder you just created.
-4. key in the following git command, which is `git clone` and paste in the repository url you just copyed in the first step.
+4. key in the following git command, which is `git clone` and paste in the repository url you just copied in the first step.
 5. press `Enter` key, the repository will be downloaded within a few seconds.
 
 Git command:
@@ -49,10 +115,6 @@ git clone https://github.com/MarkHershey/python-learning.git
 
 ```
 git add [filename]
-```
-
-```
-git add --a
 ```
 
 
@@ -89,7 +151,7 @@ git pull
 ### Git Branch
 
 
-### Collaboration
+## Collaboration
 
 #### Contribute to a project where you have collaborator access
 
@@ -102,24 +164,7 @@ To contribute to a project where you don't have write access, you can use GitHub
 
 ---
 
-#### Setting up Git username and email address
 
-check current git username and email address:
-it returns nothing if there is no name/email has been set
-
-```
-git config --global user.name
-git config --global user.email
-
-```
-
-To set global (for all the repos on your machine) git username and email address:
-
-```
-git config --global user.name "tom cruise"
-git config --global user.email "tom@example.com"
-
-```
 
 
 #### How to unstage a changed file
