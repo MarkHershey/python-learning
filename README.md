@@ -1,8 +1,19 @@
 # Python Learning
 #### A Practical Learning Path for Complete Beginners  
 
+1. Introduction to Computer Science and Programming
+2. Learn to set up your coding environment.
+3. Use the book "Think like a computer Scientist" to follow along
+4.
+
+
+
+
+
+
+
 ### Step 0:
-*Prerequisite:* 
+*Prerequisite:*
 
 None
 
@@ -13,11 +24,11 @@ None
 2. [CS50: Week 0 continued Lecture](https://youtu.be/UuFWYOnHwGM)
 
 
-*Learning Objective:* 
+*Learning Objective:*
 
 - Computational Thinking and Playing with Scratch (A graphical/ visual programming language)
 
-*Instructions:* 
+*Instructions:*
 
 To watch this two lectures only, you should be able to get a grasp of what programming is, and be able to create your own Scratch program.
 
@@ -63,7 +74,7 @@ To watch this two lectures only, you should be able to get a grasp of what progr
 1. How to Think Like a Computer Scientist: Learning with Python 3 (Book):
 [[Download PDF]](https://buildmedia.readthedocs.org/media/pdf/howtothink/latest/howtothink.pdf) / [[Read Online]](http://openbookproject.net/thinkcs/python/english3e/)
 
-*Learning Objective:* 
+*Learning Objective:*
 
 - Python syntax
 - Python basic built-in functions
@@ -75,6 +86,9 @@ Finish the whole book along with practices.
 
 
 ### Step 3:
+os, logging, sys
+
+
 [Format Specification Mini-Language](https://docs.python.org/3.7/library/string.html#format-specification-mini-language)
 
 
