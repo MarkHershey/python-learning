@@ -90,6 +90,7 @@ def copy_to_folder(src: Path, dst: Path, overwrite=False):
 if __name__ == "__main__":
 
     src = Path("/Users/mark/Documents/CODE/python-learning/testing")
+    # print(os.path.basename(src))
     dst = Path("/Users/mark/Documents/CODE/python-learning/testing2")
     copy_to_folder(license, dst, overwrite=False)
 

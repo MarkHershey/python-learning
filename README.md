@@ -1,39 +1,22 @@
 # Python Learning
 #### A Practical Learning Path for Complete Beginners  
 
-1. Introduction to Computer Science and Programming
-2. Learn to set up your coding environment.
-3. Use the book "Think like a computer Scientist" to follow along
-4.
-
-
-
-
-
-
-
 ### Step 0:
 *Prerequisite:*
 
-None
+- Zero programming experience / Complete beginners.
 
 *Learning Material:*
-> from Harvard University CS50: Introduction to Computer Science (v2015) by David Malan
+
+Watch some awesome lecture videos from Harvard University CS50: Introduction to Computer Science (v2015) by David Malan.
 
 1. [CS50: Week 0 Lecture](https://youtu.be/zFenJJtAEzE)
 2. [CS50: Week 0 continued Lecture](https://youtu.be/UuFWYOnHwGM)
 
+Just to watch this two lectures only, you should be able to get a grasp of what programming is, and be able to create your own Scratch (A graphical/ visual programming language) program. Of course, you can finish this course online as well if you found it interesting and useful.
 
-*Learning Objective:*
-
-- Computational Thinking and Playing with Scratch (A graphical/ visual programming language)
-
-*Instructions:*
-
-To watch this two lectures only, you should be able to get a grasp of what programming is, and be able to create your own Scratch program.
-
-### Step 1: Terminologies Introduction & Environment Set up
-1.1 Terminologies
+### Step 1: Familiarise with Terminologies and Setup Your Development Environment
+1.1 Some Terminologies
 
 - Compiler / Interpreter
 - Source Code / Machine Code
@@ -48,7 +31,14 @@ To watch this two lectures only, you should be able to get a grasp of what progr
     - [Spyder](https://www.spyder-ide.org) - A scientific Python IDE
 
 1.2 Environment Set up
-> for macOS user, you may follow to this guide: [How to Install Vanilla Python on macOS Properly?](install-python.md)
+> for macOS user, you may follow to this guide: [How to Install Vanilla Python on macOS Properly?](docs/python-install-guide.md)
+
+ML powered Auto Completion
+- [TabNine](https://tabnine.com/)
+- [kite](https://kite.com/)
+
+Code Formatter
+- [Black](https://black.readthedocs.io/en/stable/)
 
 *Learning Objective:*
 
@@ -60,18 +50,18 @@ To watch this two lectures only, you should be able to get a grasp of what progr
     - Know how to open/ create / move files
 
 
-
 >If you are a computer science/ computer engineering / robotics student:
 >
->- learn command line: [How to use command line for UNIX-based system](https://www.taniarascia.com/how-to-use-the-command-line-for-apple-macos-and-linux/)
->- learn git and github
+>- Learn how to use command line interface (CLI): [How to use command line for UNIX-based system](https://www.taniarascia.com/how-to-use-the-command-line-for-apple-macos-and-linux/)
+>- Learn how to use Git and Github
 
-### Step 2:
-*Prerequisite:* Step 1
+### Step 2: Think Like a Computer Scientist
 
 *Learning Material:*
 
-1. How to Think Like a Computer Scientist: Learning with Python 3 (Book):
+Finish these book along with practices:
+
+- How to Think Like a Computer Scientist: Learning with Python 3 (Book):
 [[Download PDF]](https://buildmedia.readthedocs.org/media/pdf/howtothink/latest/howtothink.pdf) / [[Read Online]](http://openbookproject.net/thinkcs/python/english3e/)
 
 *Learning Objective:*
@@ -80,56 +70,52 @@ To watch this two lectures only, you should be able to get a grasp of what progr
 - Python basic built-in functions
 - Object Oriented Programming
 
-*Instructions:*
 
-Finish the whole book along with practices.
+### Step 3: Deep Dive into Python's Built-in Libraries
+
+- [Intermediate Python](https://github.com/yasoob/intermediatePython)
+
+##### Mini Languages
+
+- [Format Specification Mini-Language](https://docs.python.org/3.7/library/string.html#format-specification-mini-language)
+- [Regular Expression](https://docs.python.org/3/library/re.html)
+
+##### Dealing with files on your computer
+
+- os
+- sys
+
+- [Collections](https://docs.python.org/3.7/library/collections.html)
 
 
-### Step 3:
+
 os, logging, sys
 
+### Step 4: Choose an Area to Practice Your Python Skills
 
-[Format Specification Mini-Language](https://docs.python.org/3.7/library/string.html#format-specification-mini-language)
+##### Web Development with Python
 
+- [CS50’s Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/2018/)
 
-[Regular Expression](https://docs.python.org/3/library/re.html)
+##### Data Analysis with Python
 
+- matplotlib
+- [matplotlib cheatsheet](https://github.com/rougier/matplotlib-cheatsheet)
+- numpy
+- scipy
+- pandas
+- [Python for Data Analysis, 2nd Edition](https://learning.oreilly.com/library/view/python-for-data/9781491957653/)
+- [Python with Data Visualisation]()
+- [Web Crawler](http://aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html)
+- [Map Visualisation: Folium](https://github.com/python-visualization/folium)
+![Folium](pics/folium.png)
 
-[Collections](https://docs.python.org/3.7/library/collections.html)
+##### Computer Vision with Python
 
+- [pyimagesearch](https://www.pyimagesearch.com/)
 
-[Intermediate Python](https://github.com/yasoob/intermediatePython)
+##### Machine Learning / Deep Learning with Python
 
+- [Coursera - Machine Learning by Stanford](https://www.coursera.org/learn/machine-learning)
 
-Python with Data Analysis
-[Python for Data Analysis, 2nd Edition](https://learning.oreilly.com/library/view/python-for-data/9781491957653/)
-
-
-[Python with Deep Learning]()
-
-[Python with Data Visualisation]()
-
-[matplotlib cheatsheet](https://github.com/rougier/matplotlib-cheatsheet)
-
-https://pypi.org/project/folium/
-
-
-matplotlib, numpy, scipy, pandas
-
-
-[Web Crawler](http://aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html)
-
-
-ML powered Auto Completion
-[TabNine](https://tabnine.com/)
-[kite](https://kite.com/)
-Code Formatter
-[Black](https://black.readthedocs.io/en/stable/)
-
-
-
-
-not relevant (for tmp archive):
-https://lines.chromeexperiments.com/
-https://www.allhistory.com/
-https://uzer.me/
+### Step 5: Sharpen your Tools
