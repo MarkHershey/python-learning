@@ -2,10 +2,21 @@
 
 ## Learning Roadmap
 
-[Python Learning Path for Complete Beginners](python_learning_path.md)
+#### [Python Learning Roadmap for Complete Beginners](python_learning_path.md)
 
+## Docs
 
-## References
+- [How to Install Vanilla Python on macOS Properly?](docs/python-install-guide.md)
+- [How to Install Python on Linux?](docs/python-install-guide-linux.md)
+- [Python Virtual Environment Guide](docs/python-virtual-env-guide.md)
+- [Python Logging]
+- [Python Concurrency]
+- [Python Unittest]
+- [Python Packaging](docs/python-packaging.md)
+- [Python Relative Import](docs/python-import-statement.md)
+- [Deploy a Python Flask App]
+
+## Quick References
 
 #### Data Types in Python
 
