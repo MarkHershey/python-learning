@@ -28,6 +28,8 @@ foo
 
 ### Namespace Package
 
+The main purpose of having "Namespace Package" is to make multiple python package share the same namespace. 
+
 Package name is `foo_x`
 Namespace is `foo`
 
