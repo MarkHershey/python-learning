@@ -28,7 +28,9 @@ foo
 
 ### Namespace Package
 
-The main purpose of having "Namespace Package" is to make multiple python package share the same namespace. 
+The main purpose of having "Namespace Package" is to make multiple python package share the same namespace.
+
+Below is an example of two separate python packages, `foo_x` and `foo_y`, they share the namespace `foo`.
 
 Package name is `foo_x`
 Namespace is `foo`
