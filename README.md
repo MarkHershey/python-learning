@@ -1,10 +1,12 @@
 # Python Learning Guide / References
 
-## Learning Roadmap
+### Learning Roadmap
 
-#### [Python Learning Roadmap for Complete Beginners](python_learning_path.md)
+If you are new to python, check this out ➜ [Python Learning Roadmap for Complete Beginners](python_learning_path.md)
 
-## Docs
+
+### Content
+##### List of Notes
 
 - [How to Install Vanilla Python on macOS Properly?](docs/python-install-guide.md)
 - [How to Install Python on Linux?](docs/python-install-guide-linux.md)
@@ -16,19 +18,24 @@
 - [Python Relative Import](docs/python-import-statement.md)
 - [Deploy a Python Flask App]
 
-## Quick References
+##### List of Sample Python Code
 
-#### Data Types in Python
+*Data Types in Python*
 
 - `List` -- [jupyter notebook](quickReference/list.ipynb) -- [python sample](quickReference/list.py)
 - `Dictionary`  -- [python sample](quickReference/dictionary.py)
 
-#### Python Built-In Functions
+*Python Built-In Functions*
 
 - `range` -- [python sample](quickReference/range.py)
 - `sorted` -- [python sample](quickReference/sorted.py)
 
 
-#### Other features
+*Other features*
 
 - `decorators` -- [python sample](quickReference/decorators.py)
+
+
+### License
+
+[MIT License](LICENSE) - Copyright (c) 2019 Mark Huang
