@@ -1,5 +1,4 @@
-# Python Learning
-#### A Practical Learning Path for Complete Beginners  
+# A Practical Learning Roadmap for Complete Beginners  
 
 ### Step 0:
 *Prerequisite:*
