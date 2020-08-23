@@ -2,7 +2,7 @@
 
 ### Learning Roadmap
 
-If you are new to python, check this out ➜ [Python Learning Roadmap for Complete Beginners](python_learning_path.md)
+If you are new to python, check this out ➜ [Python Learning Roadmap for Complete Beginners](python_learning_roadmap.md)
 
 
 ### Content

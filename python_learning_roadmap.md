@@ -30,26 +30,29 @@ Just to watch this two lectures only, you should be able to get a grasp of what 
     - [Spyder](https://www.spyder-ide.org) - A scientific Python IDE
 
 1.2 Environment Set up
-> for macOS user, you may follow to this guide: [How to Install Vanilla Python on macOS Properly?](docs/python-install-guide.md)
 
-ML powered Auto Completion
-- [TabNine](https://tabnine.com/)
-- [kite](https://kite.com/)
-
-Code Formatter
-- [Black](https://black.readthedocs.io/en/stable/)
-
-*Learning Objective:*
+*What you need to do / know:*
 
 - Install python on your machine properly
+- Choose a text editor or an IDE as your main development tool
 - Know how to run python script from an IDE
 - Know how to run python script from a terminal / shell
 - Know how to use basic commands in Command Line Interface (CLI)
     - Know how to navigate around directories in your file system
     - Know how to open/ create / move files
 
+*Resources*
 
->If you are a computer science/ computer engineering / robotics student:
+- ML powered Auto Completion
+    - [TabNine](https://tabnine.com/)
+    - [kite](https://kite.com/)
+- Python Code Formatter
+    - [Black](https://black.readthedocs.io/en/stable/)
+
+- For macOS user, you may follow to this guide to install Python: [How to Install Vanilla Python on macOS Properly?](docs/python-install-guide.md)
+- If you have the need to use multiple Python versions on your machine, you need to check out [pyenv](https://github.com/pyenv/pyenv).
+
+>If you are a computer science/ computer engineering / robotics student, you should also:
 >
 >- Learn how to use command line interface (CLI): [How to use command line for UNIX-based system](https://www.taniarascia.com/how-to-use-the-command-line-for-apple-macos-and-linux/)
 >- Learn how to use Git and Github
