@@ -28,7 +28,17 @@ names.append("Annabelle")
 names.append("Adele")
 print(names)
 
-cities = ["Tokyo", "Singapore", "New York City", "Shanghai", "KL", "Manila", "Jakarta", "Seoul", "Bangkok"]
+cities = [
+    "Tokyo",
+    "Singapore",
+    "New York City",
+    "Shanghai",
+    "KL",
+    "Manila",
+    "Jakarta",
+    "Seoul",
+    "Bangkok",
+]
 print(cities)
 
 """## 3. Access item(s) in a List"""
@@ -39,32 +49,32 @@ print(names[3])
 print(names[-1])
 print(names[-2])
 
-print() # just to print a line break
+print()  # just to print a line break
 
 # traverse all items in a list
 for name in names:
-  print("Hello,", name)
+    print("Hello,", name)
 
-print() # just to print a line break
+print()  # just to print a line break
 
 # this will show you "i" is an arbitrary temporary variable name
 # below will produce the same output as above
 for i in names:
-  print("Hello,", i)
+    print("Hello,", i)
 
-print() # just to print a line break
+print()  # just to print a line break
 
 # sometimes indexes are useful
 # how to get the item and its index at the same time?
 for index, name in enumerate(names):
-  print(index, name, sep=" | ")
+    print(index, name, sep=" | ")
 
 """## 4. Count number of items in a List"""
 
 length = len(names)
 print(length)
 
-names.append("Adele") # this shows List can contain multiple identical objects
+names.append("Adele")  # this shows List can contain multiple identical objects
 names.append("Adele")
 names.append("Adele")
 print(len(names))
@@ -79,29 +89,39 @@ print(names)
 print()
 
 # method 2: pop
-removed_name = names.pop(0) # pop() also returns the item being deleted
+removed_name = names.pop(0)  # pop() also returns the item being deleted
 print("removed name:", removed_name)
 print(names)
 print()
 
 # remove an item with specific value
-names.remove("Adele") # this will remove the first occurrence of 'Adele' only
+names.remove("Adele")  # this will remove the first occurrence of 'Adele' only
 print(names)
 print()
 
 # remove the last item from a List
-names.pop() # 01
+names.pop()  # 01
 print("# 01:", names)
 
-names.pop(-1) # 02
+names.pop(-1)  # 02
 print("# 02:", names)
 
-del names[-1] # 03
+del names[-1]  # 03
 print("# 03:", names)
 
 """## 6. List Slicing"""
 
-names = ['Rachel', 'Phoebe', 'Annabelle', 'Eve', 'Katy', 'Rachel', 'Phoebe', 'Annabelle', 'Adele']
+names = [
+    "Rachel",
+    "Phoebe",
+    "Annabelle",
+    "Eve",
+    "Katy",
+    "Rachel",
+    "Phoebe",
+    "Annabelle",
+    "Adele",
+]
 class_01 = names[:3]
 class_02 = names[3:6]
 class_03 = names[6:]
@@ -137,7 +157,7 @@ random.shuffle(cities)
 print(cities)
 
 print("sorted list:")
-cities.sort() # sort method 1
+cities.sort()  # sort method 1
 print(cities)
 
 print()
@@ -148,7 +168,7 @@ random.shuffle(cities)
 print(cities)
 
 print("sorted list:")
-a = sorted(cities) # sort method 2
+a = sorted(cities)  # sort method 2
 print("a:", a)
 print("cities:", cities)
 
@@ -169,7 +189,7 @@ print("american_cities:", american_cities)
 
 # you can do this
 for city in american_cities:
-  cities.append(city)
+    cities.append(city)
 
 # or more succinctly
 cities = cities + american_cities
@@ -188,6 +208,6 @@ print(cities)
 
 print("Lucky cities are:")
 for i in range(3):
-  draw = random.choice(cities)
-  print(draw)
-  cities.remove(draw)
+    draw = random.choice(cities)
+    print(draw)
+    cities.remove(draw)

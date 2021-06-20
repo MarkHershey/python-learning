@@ -1,5 +1,6 @@
-import underscore_vars
 from pathlib import Path
+
+import underscore_vars
 
 cwd = Path.cwd().resolve()
 print(f"Current working directory: {cwd}")

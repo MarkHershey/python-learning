@@ -2,7 +2,13 @@ req_id = b"123"
 verb = b"predict"
 payload = b"{'this is user data': 'some data'}"
 
-string: bytes = b'"%s":' % req_id + b"{" + b'"verb":"%s",' % verb + b'"usr_data":%s' % payload + b"}"
+string: bytes = (
+    b'"%s":' % req_id
+    + b"{"
+    + b'"verb":"%s",' % verb
+    + b'"usr_data":%s' % payload
+    + b"}"
+)
 new_msg: bytes = b"{" + string + b"}"
 
 

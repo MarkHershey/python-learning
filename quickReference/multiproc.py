@@ -1,8 +1,7 @@
+import multiprocessing
 import os
 import time
-import multiprocessing
 from typing import Callable
-
 
 
 def time_it(func: Callable) -> Callable:
@@ -15,17 +14,20 @@ def time_it(func: Callable) -> Callable:
 
     return timed_func
 
+
 def calculate(x):
     time.sleep(1)
-    return (x**x)**2 + 10
+    return (x ** x) ** 2 + 10
 
 
-data = [1,2,3,4,5,6,7,8,9,10]
+data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 
 @time_it
 def normal():
     result = map(calculate, data)
     print(list(result))
+
 
 @time_it
 def parallel():
@@ -35,6 +37,7 @@ def parallel():
     pool = multiprocessing.Pool()
     result = pool.map(calculate, data)
     print(list(result))
+
 
 if __name__ == "__main__":
     normal()
