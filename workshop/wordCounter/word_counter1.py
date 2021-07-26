@@ -7,6 +7,7 @@ document = open(file, "r")
 dict = dict()
 totalWordCount = 0
 
+
 def stripForWord(word):
     return word.lower().strip().strip(string.punctuation)
 

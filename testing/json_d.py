@@ -1,6 +1,5 @@
-from pathlib import Path
 import json
-
+from pathlib import Path
 
 input = Path("sampleCN.txt")
 output1 = Path("output_v1.json")

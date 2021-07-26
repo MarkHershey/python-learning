@@ -6,6 +6,7 @@ class People:
         self.height = None
         self.pillar = None
 
+
 p1 = People("Maria", 1999)
 print(p1.name)
 print(p1.birthYear)

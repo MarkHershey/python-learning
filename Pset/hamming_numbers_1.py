@@ -9,7 +9,7 @@ def hamming(n):
         length = len(hamming)
         s = hamming
         if length >= 1000:
-            s = hamming[int(length/2):length]
+            s = hamming[int(length / 2) : length]
 
         for i in s:
             new_hamming.append(i * 2)

@@ -7,6 +7,7 @@ document = open(file, "r")
 dict = dict()
 totalWordCount = 0
 
+
 def removeWhitespaces(target):
     start = 0
     end = len(target)
@@ -15,26 +16,29 @@ def removeWhitespaces(target):
             start = i
             break
     while end >= 1:
-        if target[end-1] != " ":
+        if target[end - 1] != " ":
             break
         end -= 1
     return target[start:end]
 
+
 def removePunctuations(target):
-        start = 0
-        end = len(target)
-        for i in range(end):
-            if target[i] not in string.punctuation:
-                start = i
-                break
-        while end >= 1:
-            if target[end-1] not in string.punctuation:
-                break
-            end -= 1
-        return target[start:end]
+    start = 0
+    end = len(target)
+    for i in range(end):
+        if target[i] not in string.punctuation:
+            start = i
+            break
+    while end >= 1:
+        if target[end - 1] not in string.punctuation:
+            break
+        end -= 1
+    return target[start:end]
+
 
 def stripForWord(word):
     return removePunctuations(removeWhitespaces(word.lower()))
+
 
 for line in document:
     for word in line.split():
@@ -50,7 +54,6 @@ for line in document:
             dict[word] += 1
         except:
             dict[word] = 1
-
 
 
 sorted = sorted(dict, key=lambda x: dict[x], reverse=True)
